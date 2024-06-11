@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif, arial;
+	font-size: 16px;
+	background: skyblue;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 50px;
+	color: white;
+	background: black;
+	text-align: center;
+	padding: 30px;
+}
+
+.contenedor{
+	width: 1000px;
+	margin: 20px auto;
+}
+
+header{
+	background: whitesmoke;
+}
+
+header nav{
+	width: 100%;
+}
+
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+header nav ul li{
+	float: left;
+	list-style: none;
+}
+
+header nav ul li a{
+	text-decoration: none;/*eliminar subrayado*/
+	display: inline-block;
+	padding: 15px 20px;
+	color: black;
+}
+
+header nav ul li a:hover{
+	background: gray;
+	color: white;
+}
+
+.main{
+	width: 680px;
+	background: white;
+	float: left;
+}
+
+.main .imagen{
+	width: 100%;
+}
+
+.main .imagen img{
+	width: 100%;
+}
+
+.main .post{
+	padding: 40px;
+}
+
+.main .post h2{
+	color: red;
+	margin-bottom: 20px;
+}
+
+.main .post p{
+	line-height: 27px;
+	margin-bottom: 15px;
+	color: green;
+}
+
+aside{
+	margin-bottom: 20px;
+	width: 280px;
+	padding: 20px;
+	background: black;
+	color: yellow;
+	overflow: hidden;
+}
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+aside .widget .titulo{
+	color: blue;
+	border: 1px solid white;
+	margin-bottom: 15px;
+}
+
+aside .widget ul{
+	list-style: none;
+}
+
+aside .widget ul li{
+	border-bottom: 1px solid white;
+	padding: 15px 0px;
+}
+
+aside .widget ul li a{
+	text-decoration: none;
+	color: yellow;
+}
+
+aside .widget ul li a:hover{
+	color: whitesmoke;
+	background: gray;
+	display: inline-block;
+}
+
+aside .widget p{
+	line-height: 27px;
+	text-align: justify;
+}
+
+footer{
+	width: 920px;
+	background: black;
+	color: white;
+	padding: 40px;
+	text-align: center;
+	overflow: hidden;
+}
+
